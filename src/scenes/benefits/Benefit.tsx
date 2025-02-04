@@ -11,10 +11,10 @@ type Props = {
   icon: JSX.Element;
   title: string;
   description: string;
-  seSelectedPage: (value: SelectedPage) => void;
+  setSelectedPage: (value: SelectedPage) => void;
 };
 
-const Benefit = ({icon, title, description, SelectedPage}: Props) => {
+const Benefit = ({icon, title, description, setSelectedPage}: Props) => {
   return (
     <motion.div 
       variants={childVariant}
@@ -36,6 +36,7 @@ const Benefit = ({icon, title, description, SelectedPage}: Props) => {
         </AnchorLink>
     </motion.div>
   )
+
 }
 
 export default Benefit
