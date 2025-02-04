@@ -60,7 +60,7 @@ const OurClasses = ({setSelectedPage} : Props) => {
       <motion.div
         className='mx-auto w-5/6'
       >
-        <div className='w-3/5'>
+        <div className='lg:w-3/5 w-full'>
           <HText>Progress Tracking</HText>
 
           <p className='py-5'>
